@@ -10,7 +10,7 @@ password = ""
 #Server酱报错推送提醒，需要填下下面的key，官网：https://sct.ftqq.com/3.version
 SCKEY = ""
 #推送url
-scurl = f"https://sct.ftqq.com/{SCKEY}.send"
+scurl = f"https://sctapi.ftqq.com/{SCKEY}.send"
 
 if(username == "" or password == ""):
     username = input("账号：")
